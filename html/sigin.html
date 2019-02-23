@@ -1,0 +1,86 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../assets/image/favicon.png">
+    
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/index.css">
+
+    <title>Login - Ponkan Investimentos</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  </head>
+
+  <body class="text-center">
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#"><img src="../assets/image/logo.png" width="200" height="70"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active" onmouseover="aumenta(this)" onmouseout="diminui(this)">
+                  <a class="nav-link" href="#"> Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" onmouseover="aumenta(this)" onmouseout="diminui(this)">
+                  <a class="nav-link" href="#"> Quem Somos </a>
+                </li>
+                <li class="nav-item" onmouseover="aumenta(this)" onmouseout="diminui(this)">
+                  <a class="nav-link" href="#Cadastro">Como funciona? </a>
+                </li>
+                <li class="nav-item" onmouseover="aumenta(this)" onmouseout="diminui(this)">
+                  <a class="nav-link" href="./html/simulador.html"> Simulador </a>
+                </li>
+              </ul>
+              <form class="form-inline mt-2 mt-md-0">
+                <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                  //-->
+                <a href="./html/sigin.html">
+                  <button type="button" name="" value="" class="btn btn-outline-success my-2 my-sm-0 lado-espaco">Cadastre-se</button>          
+                </a>
+                <a href="./html/login.html">
+                  <button type="button" class="btn btn-outline-success my-2 my-sm-0 lado-espaco">Login</button>
+                </a>
+              </form>
+            </div>
+          </nav>
+    </header>
+
+
+    <form class="form-signin">
+      <img class="rounded-circle" src="../assets/image/person.jpeg" alt="" width="140" height="140">
+      <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+      <label for="inputEmail" class="sr-only">Email de login</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <label for="inputPassword" class="sr-only">Senha</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Lembrar de mim
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+    </form>
+
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="./../js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../js/vendor/popper.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/vendor/holder.min.js"></script>
+    <script src="../js/index.js"></script>
+  </body>
+</html>

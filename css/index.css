@@ -134,3 +134,8 @@ button.css3button {
   padding: 15px;
   margin: auto;
 }
+
+.lado-espaco{
+  position: static;
+  margin-right: 10px;
+}
